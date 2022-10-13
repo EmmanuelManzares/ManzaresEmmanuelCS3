@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Arial";
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAvVBMVEX////W71FtrEBmmjje6tZipy3m5ubT7kLy+tHb81Ln5uzm5unJ08FdlSfV8EHn5+dclTfc9FL29vZqqztnnzrw8PDi6MfW70nj59Dl5t/X7mD5+/Z6slG410lqpT3e8Ij7+f/Z6onv7vXb6pLd6pne6qDe6qbf6a7g6bTg6brh6L/k59XW7lXZ72fS3Mrf7NfD4j/v9enJ5E19tFaEt2C01EiNu2qoy0WUv3WdxYKdwkOnyo+QuUCwz5q41KV5hki+AAADDElEQVR4nO3WiVYTQRBGYQpMxgk6EKPGXdw3FMVd0fd/LCYkMZkJSM6Z7q7qyr1PkPrO8DdbW0RERERERERERERERERERERERERERERERERERERERERERERERERERERERERERETrd7VT2r8+cUWXqsfaPz9t0qlis7S6YdVaB9oXJKwjlhRPDrRPSFdXrFrrqfYNyeqMJcWzjdHqjrVBWgGwaq2B9hlpCoEl1YZoBcGS4vnghvYlCQqDJdVGaAXCkurF4Jb2LdELhbURWsGwJlp72tdELhyWVC+9awXEmmj1Xc98SCwpXvnWCoolVa3leObDYjnXCowl1etB3+3Mh8aSwrFWcKwzLaczHx5LqjdetSJgTbU8znwMLCne+tSKgjXV8jfzcbCcakXCkuJ2reVt5mNhudSKhiVjf1rxsGZanh7FiFgyvjPRcjTzMbFqrV1XWlGxZlp97SNDFRdrruVk5iNjiXjSio4l7860XDyK8bHGfrTiY82/LQePYgosN1pJsA6nWtnPfBKs8eFdF1pJsBZaec98GiwnWomwZHxvppXzzKfCcqGVDGuhle/Mp8NyoJUQq9bq7+7V7eaqlRJLxu+vzfpwdHTFUJ8MYkn58fq8nqVG62mlxZLyeGfetqFG62klxspbKzWWyPH+XOuRNtFSo+01tNJjlVa17hvEWta6qU201BpaClj5amlgSflw3+LMjx5coqWClauWDlZDy9DMX6KlhCXDHLW0sBpahmZ+9Pk/WmpYjb9EU1oWscxqfbGIJeXXhZahR/FiLU0sGS5r2Zn5C7VUsZrfliGtbxaxMtNSxmpq2Zn587W0sWT43aRW7zwtbauWlp1HcfTDIpaUNrV6q1raUpOaWmZmflVLG+qsYSZa2k7Thr+WtczMfFtLm2lWU8vMcPV+WsTKQ0sb6V85aGkbLWppWZn53m+LWBloaQstZ15LG6hRedLQsvIvRO+PRSzrWto8rVpaVh7FmZa2TrthS8vIcE21tHFWan9bVrT+WsRa0TIyXBMtbZpzKk92bGqdAqt/g9kY3SsuAAAAAElFTkSuQmCC");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  width: 250px;
+  text-align: center;
+  background-color: #99ffcc;
+  border: 2px dotted blue;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-style: italic;
+  padding: 20px;
+  border-top: 3px solid black;
+  border-bottom: 3px dotted black;
+  border-left: 3px dashed black;
+  border-right: 3px double black;
+  width: 500px;
+  margin: auto;
+  background-color: hsl(50, 100%, 50%)
+}
+
+span {
+  font-style: bold, italic;
+  color: rgb(255, 0, 0);
+  margin: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
