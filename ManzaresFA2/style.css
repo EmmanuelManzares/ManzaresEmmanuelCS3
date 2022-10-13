@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Arial";
+  font-size: 90%;
+}
+
+table, tr, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 10px;
+}
+
+.lang {
+  background-color: red;
+}
+
+.sci {
+  background-color: orange;
+}
+
+.math {
+  background-color: yellow;
+}
+
+.pehm {
+  background-color: purple;
+}
+
+.misc {
+  background-color: green;
+}
