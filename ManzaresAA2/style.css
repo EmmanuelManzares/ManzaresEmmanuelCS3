@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Arial";
+}
+
+h1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+p {
+  margin-top: 30px;
+  margin: 5px;
+  padding-top: 30px;
+  padding-right: 5px;
+}
+
+.section {
+  width: 33%;
+  float: left;
+}
+
+.article {
+  position: relative;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #EEE;
+}
+
+#chicken {
+  background-color: yellow;
+}
+
+#beef {
+  background-color: blue;
+}
+
+#pork {
+  background-color: pink;
+}
