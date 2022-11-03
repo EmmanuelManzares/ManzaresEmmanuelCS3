@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+html {
+  background: url('images/bg-img.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+  width: 80%;
+  height: auto;
+}
+
+#centered {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+a:link, a:visited {
+  color: white;
+  font-size: auto;
+  margin: 20px;
+}
+
+a:hover, a:active {
+  color: blue;
+  font-size: 110%;
+  margin: 20px;
+}
+
+#title-bar {
+  position: fixed;
+  top: 0px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30%;
+  padding-right: 30%;
+  width: 40%;
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+.content-panel, .title-panel, .media-panel {
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.title-panel {
+  margin-top: 165px;
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content-panel, .media-panel {
+  flex: 1;
+}
+
+.caption-text {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.flag {
+  width: 50px;
+  height: auto;
+}
