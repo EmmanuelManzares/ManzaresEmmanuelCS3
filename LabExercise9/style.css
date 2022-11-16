@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+header, footer {
+  background-color: #007196;
+  padding: 1em;
+  color: white;
+  clear: left;
+  text-align: center;
+}
+
+nav {
+  float: right;
+  max-width: 160px;
+  height: 134px;
+  padding: 1em;
+  border: solid #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  padding-right: 10px;
+  color: #C5BD99;
+}
+
+article {
+  padding: 1em;
+}
+
+aside {
+  float: right;
+  width: 200px;
+  background-color: lightgrey;
+  padding: 20px;
+  margin-right: 40px;
+  font-size: 80%;
+  font-style: italic;
+  box-shadow: 3px 5px 3px 1px #7E563E;
+  top:-40px;
+  position: relative;
+}
