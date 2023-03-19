@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Numerology</title>
+        <style>
+        	body {background: lightblue; 
+            	text-align: center;
+            	font-family: arial;
+                color: navy;
+            }
+            button {padding: 10px; background:violet }
+            span {font-size: 0.5em; color: maroon}
+        </style>
+
+	</head>
+<body>
+	<h1> Your Fortune is in your name </h1>
+	<h2> Your Name is: <span id="thename"> </span></h2>
+    <h2> Today's fortune: <span id="fortune"> </span></h2>
+    
+    <button onclick="getFortune()"> Click here to enter your name </button>
+     <script>
+    	
+        function getFortune(a) {
+            a = prompt("Enter your name", "");
+            let len = (a.length).toString();
+            let digitSum = 0;
+            for (let i = 0; i < len.length; i++) {
+                digitSum += parseInt(len.charAt(i));
+            }
+            document.getElementById("thename").innerHTML = a;
+            switch (digitSum) {
+                case 0:
+                    document.getElementById("fortune").innerHTML = "Your grade in Computer Science is 1.00! Well done!";
+                    break;
+                case 1:
+                    document.getElementById("fortune").innerHTML = "You got a gift of 5000.00 pesos!";
+                    break;
+                case 2:
+                    document.getElementById("fortune").innerHTML = "Binigyan ka ni Tito ng iPhone 13 Pro Max! Sanaol!";
+                    break;
+                case 3:
+                    document.getElementById("fortune").innerHTML = "Gusto ka rin ni crush!!! Congrats sayo!";
+                    break;
+                case 4:
+                    document.getElementById("fortune").innerHTML = "Sir Jimmy tells you that there is a mistake in your code. 'Parang may mali...'";          
+                    break;
+                case 5:
+                    document.getElementById("fortune").innerHTML = "You are commended by a teacher. Congrats?";
+                    break;
+                case 6:
+                    document.getElementById("fortune").innerHTML = "Nagconfess ka kay crush pero nireject ka. Sakit naman...";
+                    break;
+                case 7:
+                    document.getElementById("fortune").innerHTML = "Sir Nat says your answer in Statistics is wrong. 'Ngano man na dong?'";
+                    break;
+                case 8:
+                    document.getElementById("fortune").innerHTML = "You got caught playing games in CS class. 'Mabilis ito sila mag Alt-Tab ba...'"; 
+                    break;
+                case 9:
+                    document.getElementById("fortune").innerHTML = "Nagbrownout sa school and wala mo na-save ang code bago nagshut-down ang PC. Noooooo!!!";
+                    break;
+            }
+            // miss ko na siya sir jimmy :((
+        }
+
+    </script>
+    
+</body>
+</html>
