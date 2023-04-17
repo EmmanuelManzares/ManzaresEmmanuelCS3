@@ -1,0 +1,22 @@
+* {
+    font-family: Arial;
+}
+
+input {
+    width: 200px;
+    height: 15px;
+    margin: 2.5px;
+}
+
+p {
+    margin: 2.5px;
+}
+
+.container {
+    display: flex;
+}
+
+table {
+    background-color: darkgray;
+    border: 1px solid black;
+}
