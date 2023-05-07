@@ -1,0 +1,53 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url("book-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    width: 50%;
+    padding: 2.5%;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    background-color: lightgrey;
+}
+
+#desc-display {
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+form {
+    width: 100%;
+    padding: 5px;
+    margin: 0%;
+}
+
+#main-legend {
+    text-align: center;
+    font-weight: bold;
+    width: 300px;
+}
+
+legend, label, .bold-text {
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 300px;
+}
+
+input {
+    width: 250px;
+    height: 15px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+}
