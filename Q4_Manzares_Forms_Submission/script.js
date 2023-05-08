@@ -28,6 +28,7 @@ function submitData() {
     document.getElementById("email-display").innerHTML = document.getElementById("email").value;
     document.getElementById("address-display").innerHTML = document.getElementById("address").value;
     document.getElementById("desc-display").innerHTML = document.getElementById("description").value;
+    passwordShown = false;
     showOrHide();
 }
 
@@ -53,4 +54,6 @@ function resetData() {
     document.getElementById("email").style.border = "2px solid red";
     document.getElementById("address").style.border = "2px solid red";
     document.getElementById("description").style.border = "2px solid red";
+    passwordShown = false;
+    showOrHide();
 }
